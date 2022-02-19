@@ -12,7 +12,7 @@ and streams them to all of your devices.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the “Plex Media Server” add-on in the dianlight add-on store
+1. Search for the “Plex Media Server” add-on in the salty2011 add-on store
    and install it.
 1. Surf to <https://www.plex.tv/claim> and get your claim token.
 1. Update the add-on config with the claim code you've got in the previous step.
@@ -237,18 +237,18 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[contributors]: https://github.com/dianlight/addon-plex/graphs/contributors
+[contributors]: https://github.com/salty2011/addon-plex/graphs/contributors
 <!--
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-plex-media-server/54383?u=frenck
 [frenck]: https://github.com/frenck
 -->
-[issue]: https://github.com/dianlight/addon-plex/issues
+[issue]: https://github.com/salty2011/addon-plex/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 <!--
 [reddit]: https://reddit.com/r/homeassistant
 -->
-[releases]: https://github.com/dianlight/addon-plex/releases
+[releases]: https://github.com/salty2011/addon-plex/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
 [webtools]: https://github.com/ukdtom/WebTools.bundle/wiki

@@ -103,4 +103,4 @@ SOFTWARE.
 [repository]: https://github.com/dialight/repository
 [semver]: http://semver.org/spec/v2.0.0.htm
 [webtools]: https://github.com/ukdtom/WebTools.bundle/wiki
-[docs]: https://github.com/dianlight/addon-plex/blob/master/plex/DOCS.md
+[docs]: https://github.com/salty2011/addon-plex/blob/master/plex/DOCS.md
