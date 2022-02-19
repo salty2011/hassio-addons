@@ -29,7 +29,7 @@ jobs:
         uses: home-assistant/builder@master
         with:
           args: |
-            --amd64 \
+            --all \
             --target addon-plex/plex \
             --docker-hub salty2011      
       - name: pull-request
