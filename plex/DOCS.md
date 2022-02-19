@@ -1,4 +1,4 @@
-# ~~Home Assistant Community Add-on~~ Dianlight: Plex Media Server
+# Plex Media Server with NAS
 
 Based on original **Home Assistant Community Add-on: Plex Media Server**
 
