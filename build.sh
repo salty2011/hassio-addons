@@ -29,5 +29,5 @@ for addon in "$@"; do
       archs=$(jq -r '.arch // ["armv7", "armhf", "amd64", "aarch64", "i386"] | [.[] | "--" + .] | join(" ")' ${addon}/config.json)
     fi
     echo "${ANSI_GREEN}Building ${addon} -> ${archs} ${ANSI_CLEAR}"
-    docker run  --rm --privileged -v ~/.docker:/root/.docker -v $(pwd)/${addon}:/data homeassistant/${arch}-builder  --docker-hub dianlight ${check} ${archs} -t /data 
+    docker run  --rm --privileged -v ~/.docker:/root/.docker -v $(pwd)/${addon}:/data homeassistant/${arch}-builder  --docker-hub salty2011 ${check} ${archs} -t /data 
 done
