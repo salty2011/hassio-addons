@@ -1,3 +1,2 @@
-[submodule "addon-plex"]
-	path = addon-plex
+[submodule "addon-plex/"]
 	url = https://github.com/salty2011/addon-plex
