@@ -35,5 +35,4 @@ jobs:
       - name: pull-request
         uses: repo-sync/pull-request@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}       
-salty2011
+          github_token: ${{ secrets.GITHUB_TOKEN }}
