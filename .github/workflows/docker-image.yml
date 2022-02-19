@@ -31,14 +31,7 @@ jobs:
           args: |
             --all \
             --target addon-plex/plex \
-            --docker-hub dianlight     
-      - name: Publish SambaNAS Addon
-        uses: home-assistant/builder@master
-        with:
-          args: |
-            --all \
-            --target sambanas \
-            --docker-hub dianlight     
+            --docker-hub salty2011      
       - name: pull-request
         uses: repo-sync/pull-request@v2
         with:
