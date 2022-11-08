@@ -1,6 +1,6 @@
 {
     "name": "Plex Media Server with NAS",
-    "version": "2.6",
+    "version": "2.7",
     "slug": "plex",
     "description": "Recorded media, live TV, online news, and podcasts ready to stream.",
     "url": "https://github.com/salty2011/addon-plex",
@@ -41,14 +41,12 @@
     "hassio_api": true,
     "hassio_role": "default",
     "homeassistant_api": false,
+    "docker_api": true,
     "host_network": false,
     "options": {
         "claim_code": "",
         "webtools": false,
-        "networkdisks": {
-            "<//SERVER/SHARE>",
-            "<//SERVER/SHARE>"
-        }
+        "networkdisks": "<//SERVER/SHARE>"
         "cifsusername": "<username>",
         "cifspassword": "<password>",
         "cifsversion": ""
